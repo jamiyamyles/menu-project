@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    border-radius: 10px; /* makes the corners rounded*/
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    /* margin,padding, width creates the space around the element or menu item*/
+}
+
+img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    /* margin right provides space along the side of the picture */
+}
+
+p {
+    margin: 0;
+}
